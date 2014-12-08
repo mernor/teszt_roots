@@ -1,0 +1,27 @@
+{
+  "name": "mernor/teszt_roots",
+  "config": {
+    "preferred-install": "dist",
+    "vendor-dir": "../../../../vendor"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://wpackagist.org"
+    },
+    {
+            "type": "git",
+            "url": "https://github.com/mernor/teszt_roots.git"
+    }
+  ],
+  "require": {
+    "mernor/teszt_roots": "*"
+  },
+  "extra": {
+    "installer-paths": {
+      "../../mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "../../plugins/{$name}/": ["type:wordpress-plugin"],
+      "../../themes/{$name}/": ["type:wordpress-theme"]
+    }
+  }
+}
