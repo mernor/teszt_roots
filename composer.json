@@ -1,6 +1,4 @@
 {
-  "name": "mernor/teszt_roots",
-  "minimum-stability": "dev",  
   "config": {
     "preferred-install": "dist",
     "vendor-dir": "../../../../vendor"
