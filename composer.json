@@ -1,20 +1,11 @@
 {
   "name": "mernor/teszt_roots",
   "minimum-stability": "dev",  
-  "type": "project",  
   "config": {
     "preferred-install": "dist",
     "vendor-dir": "../../../../vendor"
   },
-  "repositories": [
-    {
-            "type": "vcs",
-            "url": "https://github.com/mernor/teszt_roots.git"
-    }
-  ],
-  "require": {
-    "mernor/teszt_roots": "dev"
-  },
+
   "extra": {
     "installer-paths": {
       "../../mu-plugins/{$name}/": ["type:wordpress-muplugin"],
