@@ -1,5 +1,6 @@
 {
   "name": "mernor/teszt_roots",
+  "minimum-stability": "dev"  
   "type": "project",  
   "config": {
     "preferred-install": "dist",
@@ -12,7 +13,7 @@
     }
   ],
   "require": {
-    "mernor/teszt_roots": "*"
+    "mernor/teszt_roots": "dev"
   },
   "extra": {
     "installer-paths": {
