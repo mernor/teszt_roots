@@ -6,10 +6,6 @@
   },
   "repositories": [
     {
-      "type": "composer",
-      "url": "http://wpackagist.org"
-    },
-    {
             "type": "git",
             "url": "https://github.com/mernor/teszt_roots.git"
     }
