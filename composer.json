@@ -1,4 +1,5 @@
 {
+  "name": "mernor/teszt_roots",     
   "config": {
     "preferred-install": "dist",
     "vendor-dir": "../../../../vendor"
