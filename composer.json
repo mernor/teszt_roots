@@ -1,13 +1,13 @@
 {
   "name": "mernor/teszt_roots",
-  "type": "master",  
+  "type": "project",  
   "config": {
     "preferred-install": "dist",
     "vendor-dir": "../../../../vendor"
   },
   "repositories": [
     {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/mernor/teszt_roots.git"
     }
   ],
