@@ -14,3 +14,4 @@
     "../../web/app/themes/{$name}/": ["type:wordpress-theme"]
 }
 }
+}
