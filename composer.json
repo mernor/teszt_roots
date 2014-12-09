@@ -1,12 +1,14 @@
 {
   "name": "mernor/teszt_roots",   
-  "type": "package",  
+  "type": "wordpress-theme",  
   "minimum-stability": "dev",
   "config": {
     "preferred-install": "dist",
     "vendor-dir": "../../../../vendor"
   },
-
+  "require": {
+    "composer/installers": "~1.0",
+  },
   "extra": {
     "installer-paths": {
       "../../../web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
