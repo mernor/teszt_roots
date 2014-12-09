@@ -5,7 +5,7 @@
   "require": {
     "php": ">=5.4",
     "johnpbloch/wordpress": "4.0.1",
-    "composer/installers": "v1.0.12",
+    "composer/installers": "v1.0.12"
   },  
   "config": {
     "preferred-install": "dist",
