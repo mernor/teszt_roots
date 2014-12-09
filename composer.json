@@ -7,11 +7,10 @@
     "vendor-dir": "../../../../vendor"
   },
 
-  "extra": {
-    "installer-paths": {
-      "../../mu-plugins/{$name}/": ["type:wordpress-muplugin"],
-      "../../plugins/{$name}/": ["type:wordpress-plugin"],
-      "../../themes/{$name}/": ["type:wordpress-theme"]
-    }
-  }
+"extra": {
+  "installer-paths": {
+    "../../mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+    "../../plugins/{$name}/": ["type:wordpress-plugin"],
+    "../../web/app/themes/{$name}/": ["type:wordpress-theme"]
+},
 }
